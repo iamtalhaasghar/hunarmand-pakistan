@@ -14,4 +14,9 @@ public class Laptop extends Computer {
     public void setBatteryTiming(int batteryTiming) {
         this.batteryTiming = batteryTiming;
     }
+
+    public void doCalculation(){
+        super.doCalculation();
+        System.out.println("I can perform calculations even when there is no electricity.");
+    }
 }
